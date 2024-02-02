@@ -275,3 +275,14 @@ tr:hover .cut {
     font-size: 60%;
 }
 
+    .meta th {
+        white-space: nowrap;
+        text-align: left;
+    }
+
+    .meta th span {
+        max-width: 200px; /* Ajusta el valor según sea necesario */
+        overflow: hidden;
+        display: inline-block;
+        text-overflow: ellipsis;
+    }
