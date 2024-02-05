@@ -284,6 +284,5 @@ tr:hover .cut {
     .meta th span {
         max-width: 200px; /* Ajusta el valor según sea necesario */
         overflow: hidden;
-        display: inline-block;
         text-overflow: ellipsis;
     }
