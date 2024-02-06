@@ -285,3 +285,10 @@ tr:hover .cut {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+/* Centra la imagen horizontalmente */
+
+
+    .sender-info span {
+        display: block;
+        margin: 0 auto -50px; /* Centra la imagen horizontalmente */
+    }
