@@ -297,3 +297,8 @@ tr:hover .cut {
         margin: -40 0 3em;
         clear: both;
     }
+
+    table.inventory2 th {
+        font-weight: bold;
+        text-align: center;
+    }
