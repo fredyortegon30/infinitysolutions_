@@ -292,3 +292,8 @@ tr:hover .cut {
         display: block;
         margin: 0 auto -50px; /* Centra la imagen horizontalmente */
     }
+
+    table.inventory2 {
+        margin: -40 0 3em;
+        clear: both;
+    }
