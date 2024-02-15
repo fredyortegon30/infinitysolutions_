@@ -91,7 +91,7 @@ header h1 {
 }
 
 header h1 span {
-    margin: 0.5em 0; /* Ajusta el valor según sea necesario */
+    margin: 0.5em 0.5em; /* Ajusta el valor según sea necesario */
 }
 
 header address {
