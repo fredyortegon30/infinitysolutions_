@@ -229,8 +229,10 @@ aside h1 {
 }
 
 @page {
-    margin: 0;
-}
+    margin-top: 0.3in;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
@@ -272,19 +274,4 @@ aside h1 {
         text-align: center;
     }
 
-/* Modifica las reglas para las tablas inventory e inventory2 */
-table.inventory,
-table.inventory2 {
-    display: block;
-    page-break-inside: avoid;
-}
-
-/* Agrega la siguiente regla para asegurar espacio después de las tablas al pasar a la siguiente página */
-table.inventory:after,
-table.inventory2:after {
-    content: "";
-    display: table;
-    clear: both;
-    page-break-before: auto; /* Asegura espacio después de la tabla al pasar a la siguiente página */
-}
 
