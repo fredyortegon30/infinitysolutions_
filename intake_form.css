@@ -272,8 +272,10 @@ aside h1 {
         text-align: center;
     }
 
+/* Modifica las reglas para las tablas inventory e inventory2 */
 table.inventory,
 table.inventory2 {
+    display: block;
     page-break-inside: avoid;
 }
 
