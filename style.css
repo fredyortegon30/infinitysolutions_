@@ -38,6 +38,7 @@ body {
     position: absolute ;
     text-shadow: 0 0 8px rgba(0,0,0,0.8);
     z-index: 1;
+    top: 33%;
  }
 
  .container table {
